@@ -65,11 +65,14 @@ p {
   color: #858585;
   font-size: 17px;
 }
-.product h2{
-    font-size: 19px;
-    font-weight: 600;
-    color: #565656;
-    margin-top: 1.3rem;
+.product p{
+    width: 600px;
+}
+.product h2 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #565656;
+  margin-top: 1.3rem;
 }
 
 /* STORAGE */
@@ -92,47 +95,48 @@ p {
   border-radius: 10px;
   cursor: pointer;
 }
-button:focus{
-    background-color: #036cdb;
-    color: white;
+button:focus {
+  background-color: #036cdb;
+  color: white;
 }
 /* ADD TO CARD */
 .addToCard {
-    display: flex;
-    justify-content: space-between;
-    padding: 0rem 2rem;
-}
-.addToCard button{
-    padding: 0.5rem 1rem;
-    background-color: #036cdb;
-    color: #eeeeee;
-    border: none;
-    font-size: 19px;
-    letter-spacing: 3px;
-    cursor: pointer;
-}
-.price{
-    font-size: 2rem;
-    font-weight: 600;
-    color: black;
-}
-@media (max-width:930px){
-
-/* .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 40px;
-  bottom: 40px;
-  left: 40px;
-  right: 40px;
-  box-shadow: 0px 0px 50px 5px rgb(126, 123, 123);
-  background-color: white;
-} */
-.container{
-    
+  justify-content: space-between;
+  padding: 0rem 2rem;
 }
-
-
+.addToCard button {
+  padding: 0.5rem 1rem;
+  background-color: #036cdb;
+  color: #eeeeee;
+  border: none;
+  font-size: 19px;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.price {
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+@media (max-width: 1300px) {
+  body,
+  html {
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    position: static;
+    margin: 4rem;
+  }
+  .air {
+    margin-bottom: 2rem;
+  }
+  .product p {
+    width: 100%;
+    height: auto;
+    max-height: 105px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
