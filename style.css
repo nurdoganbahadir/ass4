@@ -55,12 +55,23 @@ span {
 .apple {
   margin-top: 0;
   font-size: 19px;
+  color: #686868;
+  font-weight: 500;
 }
 /* PRODUCT INFO */
 .product h2,
 p {
   margin: 0;
+  color: #858585;
+  font-size: 17px;
 }
+.product h2{
+    font-size: 19px;
+    font-weight: 600;
+    color: #565656;
+    margin-top: 1.3rem;
+}
+
 /* STORAGE */
 .buttons {
   display: flex;
@@ -99,4 +110,16 @@ button:focus{
     font-size: 19px;
     letter-spacing: 3px;
     cursor: pointer;
+}
+.price{
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+}
+@media (max-width:1200px){
+
+
+
+
+    
 }
