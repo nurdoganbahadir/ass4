@@ -65,8 +65,8 @@ p {
   color: #858585;
   font-size: 17px;
 }
-.product p{
-    width: 600px;
+.product p {
+  width: 600px;
 }
 .product h2 {
   font-size: 19px;
@@ -139,4 +139,26 @@ button:focus {
     overflow: hidden;
     text-overflow: ellipsis;
   }
+}
+@media (max-width: 900px) {
+    body,html{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  .container {
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin: 0rem 2rem;
+  }
+  .air{
+    width: 100%;
+  }
+  img{
+    width: 100%;
+    max-width: 400px;
+  }
+
 }
